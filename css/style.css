@@ -1,0 +1,99 @@
+body{
+    background-image: url(../images/tree.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    /* background-color: rgb(219, 187, 187); */
+    /* border: 2px solid rgb(240, 215, 215); */
+    font-size: 30px;
+    text-align: center;
+    background-image: url(../images/beeRight.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: antiquewhite;
+    animation-name: change;
+    position: absolute;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+@keyframes change{
+    0%{
+        left: 0;
+    }
+    50%{
+       
+    }
+    100%{
+        left: 1100px;
+    }
+}
+.box:hover{
+    animation-play-state: paused ;
+}
+.div2{
+    top:440px;
+    animation-delay: 6s;
+}
+ .div3{
+    top:880px;
+    animation-delay: 12s;
+} 
+ .div4{
+    top:1320px;
+    animation-delay: 18s;
+}
+.div5{
+    top:1760px;
+    animation-delay: 24s;
+}
+.div6{
+    top:2200px;
+    animation-delay: 30s;
+} /* ///////////////////////////////////////////////////////////////////// */
+.box-reverse{
+    animation-name: change-reverse;
+    /* animation-direction: reverse; */
+    margin-left:1100px ;
+    background-image: url(../images/beeLeft.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@keyframes change-reverse{
+    0%{
+      left: 0;
+    }
+    50%{
+       
+    }
+    100%{
+        left: -1100px;
+    }
+}
+.div11{
+    top:220px;
+    animation-delay: 3s;
+}
+ .div12{
+    top:660px;
+    animation-delay: 9s;
+}
+.div13{
+    top:1100px;
+    animation-delay: 15s;
+} 
+.div14{
+    top:1540px;
+    animation-delay: 21s;
+}
+.div15{
+    top:1980px;
+    animation-delay: 27s;
+}/* ///////////////////////////////////////////////////////////////////// */
